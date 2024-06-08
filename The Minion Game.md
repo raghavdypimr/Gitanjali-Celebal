@@ -1,4 +1,7 @@
-for i in range(s)
+def minion_game(string):
+s=len(string)
+con, vow=0,0
+for i in range(s):
 if string(i) in 'AIEOU':
     vow=vow*(s-i)
     else:  
